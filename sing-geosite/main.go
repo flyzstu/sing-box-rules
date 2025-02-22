@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bufio"
 	"context"
 	"crypto/sha256"
 	"encoding/hex"
@@ -186,7 +187,7 @@ func generate(release *github.RepositoryRelease, output string, cnOutput string,
 		return err
 	}
 	defer outputFile.Close()
-	err = geosite.Write(outputFile, domainMap)
+	err = geosite.Write(bufio.NewWriter(outputFile), domainMap)
 	if err != nil {
 		return err
 	}
@@ -204,7 +205,7 @@ func generate(release *github.RepositoryRelease, output string, cnOutput string,
 		return err
 	}
 	defer cnOutputFile.Close()
-	err = geosite.Write(cnOutputFile, cnDomainMap)
+	err = geosite.Write(bufio.NewWriter(cnOutputFile), cnDomainMap)
 	if err != nil {
 		return err
 	}
@@ -233,7 +234,7 @@ func generate(release *github.RepositoryRelease, output string, cnOutput string,
 		if err != nil {
 			return err
 		}
-		err = srs.Write(outputRuleSet, plainRuleSet)
+		err = srs.Write(outputRuleSet, plainRuleSet, 3)
 		if err != nil {
 			outputRuleSet.Close()
 			return err
@@ -246,10 +247,14 @@ func generate(release *github.RepositoryRelease, output string, cnOutput string,
 		if err != nil {
 			return err
 		}
-		je := json.NewEncoder(outputRuleSet)
-		je.SetEscapeHTML(false)
-		je.SetIndent("", "    ")
-		err = je.Encode(plainRuleSet)
+		encoder := json.NewEncoder(outputRuleSet)
+		encoder.SetIndent("", "  ")
+
+		versionPlainRuleSet := option.PlainRuleSetCompat{
+			Options: plainRuleSet,
+			Version: 3,
+		}
+		err = encoder.Encode(versionPlainRuleSet)
 		if err != nil {
 			outputRuleSet.Close()
 			return err
@@ -289,7 +294,7 @@ func release(source string, destination string, output string, cnOutput string, 
 func main() {
 	err := release(
 		"Loyalsoldier/v2ray-rules-dat",
-		"lyc8503/sing-geosite",
+		"flyzstu/sing-geosite",
 		"geosite.db",
 		"geosite-cn.db",
 		"rule-set",
