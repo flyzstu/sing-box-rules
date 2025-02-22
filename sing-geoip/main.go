@@ -234,7 +234,7 @@ func release(source string, destination string, output string, ruleSetOutput str
 		if err != nil {
 			return err
 		}
-		err = srs.Write(outputRuleSet, plainRuleSet)
+		err = srs.Write(outputRuleSet, plainRuleSet, 3)
 		if err != nil {
 			outputRuleSet.Close()
 			return err
@@ -248,9 +248,13 @@ func release(source string, destination string, output string, ruleSetOutput str
 			return err
 		}
 		je := json.NewEncoder(outputRuleSet)
+		versionPlainRuleSet := option.PlainRuleSetCompat{
+			Options: plainRuleSet,
+			Version: 3,
+		}
 		je.SetEscapeHTML(false)
 		je.SetIndent("", "    ")
-		err = je.Encode(plainRuleSet)
+		err = je.Encode(versionPlainRuleSet)
 		if err != nil {
 			outputRuleSet.Close()
 			return err
@@ -267,7 +271,7 @@ func setActionOutput(name string, content string) {
 }
 
 func main() {
-	err := release("Loyalsoldier/geoip", "lyc8503/sing-geoip", "geoip.db", "rule-set")
+	err := release("Loyalsoldier/geoip", "flyzstu/sing-geoip", "geoip.db", "rule-set")
 	if err != nil {
 		log.Fatal(err)
 	}

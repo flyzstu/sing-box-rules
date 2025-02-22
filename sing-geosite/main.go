@@ -248,12 +248,12 @@ func generate(release *github.RepositoryRelease, output string, cnOutput string,
 			return err
 		}
 		encoder := json.NewEncoder(outputRuleSet)
-		encoder.SetIndent("", "  ")
-
 		versionPlainRuleSet := option.PlainRuleSetCompat{
 			Options: plainRuleSet,
 			Version: 3,
 		}
+		encoder.SetIndent("", "  ")
+		encoder.SetEscapeHTML(false)
 		err = encoder.Encode(versionPlainRuleSet)
 		if err != nil {
 			outputRuleSet.Close()
