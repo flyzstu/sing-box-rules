@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "topcoder.com",
+      "domain_suffix": ".topcoder.com"
+    }
+  ]
+}

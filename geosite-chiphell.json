@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "chiphell.com",
+      "domain_suffix": ".chiphell.com"
+    }
+  ]
+}

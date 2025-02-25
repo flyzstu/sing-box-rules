@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "sfacg.com",
+      "domain_suffix": ".sfacg.com"
+    }
+  ]
+}

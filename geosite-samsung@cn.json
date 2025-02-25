@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "samsungeshop.com.cn",
+      "domain_suffix": ".samsungeshop.com.cn"
+    }
+  ]
+}

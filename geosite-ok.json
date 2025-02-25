@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "ok.ru",
+      "domain_suffix": ".ok.ru"
+    }
+  ]
+}

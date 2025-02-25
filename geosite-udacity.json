@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "udacity.com",
+      "domain_suffix": ".udacity.com"
+    }
+  ]
+}

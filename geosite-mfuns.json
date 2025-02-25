@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "mfuns.cn",
+      "domain_suffix": ".mfuns.cn"
+    }
+  ]
+}

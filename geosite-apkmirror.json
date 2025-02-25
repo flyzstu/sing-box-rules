@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "apkmirror.com",
+      "domain_suffix": ".apkmirror.com"
+    }
+  ]
+}

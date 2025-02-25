@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "authy.com",
+      "domain_suffix": ".authy.com"
+    }
+  ]
+}
