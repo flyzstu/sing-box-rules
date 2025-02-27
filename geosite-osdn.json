@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "osdn.net",
+      "domain_suffix": ".osdn.net"
+    }
+  ]
+}

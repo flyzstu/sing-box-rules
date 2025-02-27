@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "nodejs.org",
+      "domain_suffix": ".nodejs.org"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "erji.net",
+      "domain_suffix": ".erji.net"
+    }
+  ]
+}

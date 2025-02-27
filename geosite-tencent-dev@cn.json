@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "weui.io",
+      "domain_suffix": ".weui.io"
+    }
+  ]
+}
