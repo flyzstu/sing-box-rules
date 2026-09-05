@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "johren.games",
+        "johren.net"
+      ],
+      "domain_suffix": [
+        ".johren.games",
+        ".johren.net"
+      ]
+    }
+  ]
+}

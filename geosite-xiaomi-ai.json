@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "miaibox.com",
+        "xiaoaiassist.com",
+        "xiaomimimo.com"
+      ],
+      "domain_suffix": [
+        ".miaibox.com",
+        ".xiaoaiassist.com",
+        ".xiaomimimo.com"
+      ]
+    }
+  ]
+}

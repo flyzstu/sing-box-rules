@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "huanghuagang.org",
+      "domain_suffix": ".huanghuagang.org"
+    }
+  ]
+}
