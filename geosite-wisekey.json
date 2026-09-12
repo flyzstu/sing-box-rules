@@ -1,0 +1,19 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "wisecoin.com",
+        "wiseid.com",
+        "wisekey.com",
+        "wisekey.com.hk"
+      ],
+      "domain_suffix": [
+        ".wisecoin.com",
+        ".wiseid.com",
+        ".wisekey.com",
+        ".wisekey.com.hk"
+      ]
+    }
+  ]
+}

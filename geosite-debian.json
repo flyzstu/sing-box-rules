@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "debian.org",
+        "dotdeb.org"
+      ],
+      "domain_suffix": [
+        ".debian.org",
+        ".dotdeb.org"
+      ]
+    }
+  ]
+}

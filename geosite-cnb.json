@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "cnb.cool",
+      "domain_suffix": ".cnb.cool"
+    }
+  ]
+}

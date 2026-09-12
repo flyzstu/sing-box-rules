@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "clubhouse.com",
+        "clubhouseapi.com",
+        "joinclubhouse.com"
+      ],
+      "domain_suffix": [
+        ".clubhouse.com",
+        ".clubhouseapi.com",
+        ".joinclubhouse.com"
+      ]
+    }
+  ]
+}
