@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "bestchange.com",
+        "bestchange.net",
+        "bestchange.ru"
+      ],
+      "domain_suffix": [
+        ".bestchange.com",
+        ".bestchange.net",
+        ".bestchange.ru"
+      ]
+    }
+  ]
+}

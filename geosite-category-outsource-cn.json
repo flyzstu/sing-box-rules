@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "mihuashi.com",
+      "domain_suffix": ".mihuashi.com"
+    }
+  ]
+}

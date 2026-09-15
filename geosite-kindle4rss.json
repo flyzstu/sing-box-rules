@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "kindle4rss.com",
+      "domain_suffix": ".kindle4rss.com"
+    }
+  ]
+}
