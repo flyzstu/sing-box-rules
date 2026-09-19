@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "sky.pro",
+        "skyeng.ru"
+      ],
+      "domain_suffix": [
+        ".sky.pro",
+        ".skyeng.ru"
+      ]
+    }
+  ]
+}

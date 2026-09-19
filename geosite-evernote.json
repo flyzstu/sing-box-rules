@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "evernote.com",
+      "domain_suffix": ".evernote.com"
+    }
+  ]
+}

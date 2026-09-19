@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "ad-cdek.ru",
+        "cdek.shopping",
+        "cdek.ru"
+      ],
+      "domain_suffix": [
+        ".ad-cdek.ru",
+        ".cdek.shopping",
+        ".cdek.ru"
+      ]
+    }
+  ]
+}
