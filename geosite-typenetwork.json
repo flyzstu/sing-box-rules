@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "typenetwork.com",
+      "domain_suffix": ".typenetwork.com"
+    }
+  ]
+}
