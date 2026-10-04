@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "demonoid.is",
+      "domain_suffix": ".demonoid.is"
+    }
+  ]
+}
