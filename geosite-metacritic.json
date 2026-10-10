@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "metacritic.com",
+      "domain_suffix": ".metacritic.com"
+    }
+  ]
+}
