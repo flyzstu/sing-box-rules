@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "badjs.weixinbridge.com",
+      "domain_suffix": ".badjs.weixinbridge.com"
+    }
+  ]
+}

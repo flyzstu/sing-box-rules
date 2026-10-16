@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "setapp.com",
+      "domain_suffix": ".setapp.com"
+    }
+  ]
+}
