@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "adobedc.cn",
+      "domain_suffix": ".adobedc.cn"
+    }
+  ]
+}

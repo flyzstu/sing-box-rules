@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "starfieldtech.com",
+      "domain_suffix": ".starfieldtech.com"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "askdiandian.com",
+        "diandianlife.top"
+      ],
+      "domain_suffix": [
+        ".askdiandian.com",
+        ".diandianlife.top"
+      ]
+    }
+  ]
+}
