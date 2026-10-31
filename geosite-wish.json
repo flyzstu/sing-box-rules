@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "wish.com",
+      "domain_suffix": ".wish.com"
+    }
+  ]
+}

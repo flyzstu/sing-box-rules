@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "typography.com",
+      "domain_suffix": ".typography.com"
+    }
+  ]
+}
