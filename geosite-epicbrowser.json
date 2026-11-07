@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "epicbrowser.com",
+      "domain_suffix": ".epicbrowser.com"
+    }
+  ]
+}

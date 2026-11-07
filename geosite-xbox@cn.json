@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "xboxlive.cn",
+      "domain_suffix": ".xboxlive.cn"
+    }
+  ]
+}

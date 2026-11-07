@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "adsgram.ai",
+      "domain_suffix": ".adsgram.ai"
+    }
+  ]
+}

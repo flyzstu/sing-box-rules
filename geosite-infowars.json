@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "banned.video",
+        "infowars.com",
+        "infowarsmedia.com"
+      ],
+      "domain_suffix": [
+        ".banned.video",
+        ".infowars.com",
+        ".infowarsmedia.com"
+      ]
+    }
+  ]
+}

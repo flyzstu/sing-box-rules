@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "twca.com.tw",
+      "domain_suffix": ".twca.com.tw"
+    }
+  ]
+}

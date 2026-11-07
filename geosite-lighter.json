@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "lighter.exchange",
+        "lighter.xyz",
+        "zklighter.elliot.ai"
+      ],
+      "domain_suffix": [
+        ".lighter.exchange",
+        ".lighter.xyz",
+        ".zklighter.elliot.ai"
+      ]
+    }
+  ]
+}
