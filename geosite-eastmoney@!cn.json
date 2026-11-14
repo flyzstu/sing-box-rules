@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "emsec.hk",
+      "domain_suffix": ".emsec.hk"
+    }
+  ]
+}
