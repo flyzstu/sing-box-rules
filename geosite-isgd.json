@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "is.gd",
+        "v.gd"
+      ],
+      "domain_suffix": [
+        ".is.gd",
+        ".v.gd"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "iq.com",
+      "domain_suffix": ".iq.com"
+    }
+  ]
+}
