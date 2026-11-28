@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "cloudinary.com",
+        "cloudinary.net"
+      ],
+      "domain_suffix": [
+        ".cloudinary.com",
+        ".cloudinary.net"
+      ]
+    }
+  ]
+}

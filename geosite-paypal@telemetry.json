@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": "paypalbeacon.com",
+      "domain_suffix": ".paypalbeacon.com"
+    }
+  ]
+}
